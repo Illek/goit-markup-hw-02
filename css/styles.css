@@ -1,5 +1,127 @@
 body {
-  font-family: "Roboto", "Raleway", "San-Serif";
-  background-color: ##FFFFFF;
-  color: #434455;
+  font-family: "Roboto", "San-Serif";
+  background-color: #ffffff;
+  color: #2E2F42;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*---------- Header section ----------*/
+
+.header-logo {
+font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em; 
+  text-transform: uppercase;
+  color: #2E2F42;
+}
+
+.span-blue {
+  color: #4D5AE5
+}
+
+.header-nav-link {
+  font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.address-link {
+  font-size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-style: normal;
+}
+
+
+.address-link:hover,
+.address-link:focus,
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: #404BBF
+}
+
+/*---------- Main container ----------*/
+/*---------- Hero section ----------*/
+.main {
+  
+}
+
+.main-hero {
+  background-color: #2E2F42;
+}
+
+.main-title {
+  color:  #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.main-btn {
+  border-radius: 4px;
+    background:  #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    color: #FFF;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+}
+
+.main-btn:hover {
+  border-radius: 4px;
+    background: #404BBF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+/*----------title/text styles----------*/
+
+.css-title-two {
+color: #2E2F42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.css-title-three {
+  color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.css-main-text {
+  color:m#434455;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+}
+
+/*---------- Feathures section ----------*/
