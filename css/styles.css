@@ -53,7 +53,8 @@ font-family: Raleway;
 }
 
 /*---------- Main container ----------*/
-/*---------- Hero section ----------*/
+    /*---------- Section one - Hero ----------*/
+
 .main {
   
 }
@@ -62,7 +63,7 @@ font-family: Raleway;
   background-color: #2E2F42;
 }
 
-.main-title {
+.main-hero-title {
   color:  #FFF;
     text-align: center;
     font-size: 56px;
@@ -71,7 +72,7 @@ font-family: Raleway;
     letter-spacing: 0.02em;
 }
 
-.main-btn {
+.main-hero-btn {
   border-radius: 4px;
     background:  #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -83,7 +84,7 @@ font-family: Raleway;
       letter-spacing: 0.04em;
 }
 
-.main-btn:hover {
+.main-hero-btn:hover {
   border-radius: 4px;
     background: #404BBF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -97,16 +98,21 @@ font-family: Raleway;
 
 /*----------title/text styles----------*/
 
-.css-title-two {
+.feathures-title,
+.team-title,
+.portfolio-title {
 color: #2E2F42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
-.css-title-three {
+.feathures-subtitle,
+.team-subtitle,
+.portfolio-subtitle {
   color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -114,9 +120,10 @@ color: #2E2F42;
     letter-spacing: 0.02em;
 }
 
-.css-main-text {
-  color:m#434455;
-    text-align: center;
+.feathures-list-text,
+.team-list-text,
+.portfolio-list-text {
+  color:m#434455list-text
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -124,4 +131,36 @@ color: #2E2F42;
     letter-spacing: 0.02em;
 }
 
-/*---------- Feathures section ----------*/
+  /*---------- Our team (cards) section (3) ----------*/
+
+.team {
+  background-color: #F4F4FD;
+}
+
+.team-list-li {
+  background-color: #FFF;
+  }
+
+/*---------- Footer ----------*/
+
+.footer {
+  background-color: #2E2F42;
+}
+
+.footer-logo {
+  color: #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-text {
+  color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+}
